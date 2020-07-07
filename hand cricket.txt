@@ -1,0 +1,89 @@
+	let bat_valSlotRaw = this.event.request.intent.slots.bat_val.value;
+		console.log(bat_valSlotRaw);
+		let bat_valSlot = resolveCanonical(this.event.request.intent.slots.bat_val);
+	console.log(bat_valSlot);
+
+
+
+	speechOutput = "This is a place holder response for the intent named six. This intent has no slots. Anything else?";
+		this.emit(":ask", speechOutput, speechOutput);
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+
+function random_item(items)
+{
+  
+return items[Math.floor(Math.random()*items.length)];
+     
+}
+
+const items = [254, 45, 212, 365, 2543];
+console.log(random_item(items));
+
+
+/////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+	function randomPhrase(ar)
+	 {
+	     return ar[Math.floor(ar.length*Math.random())];
+},
+
+		let x =0;
+
+	let say = randomPhrase([`one`,`two`,`three`,`four`,`five`,`six`]);
+
+
+
+//////////////////////////////////////////////////
+
+const items = [`one`,`two`,`three`,`four`,`five`,`six`];
+
+function random_item(items)
+{
+
+return items[Math.floor(Math.random()*items.length)];
+	 
+},
+
+
+
+/////////////////////////////////////////////////////////
+
+
+documentation :-
+
+ Hand Cricket
+<audio src="https://s3.amazonaws.com/handcricket/ipl_begal_tune_ringtone_by_ravirockstar1_-_a9_-_free_on_zedge___.mp3" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+Are u a cricket fan? try your hands on hand cricket (no pun intended)
+
+
+In this skill your opponent is Alexa. First you select a number from one to six including one and six ,then Alexa chooses on number randomly .If you number matches with Alexa's random number you will be OUT.If not it will be added to your current score. Good luck! 
+
+Alexa,open hand cricket
+
+Alexa,play hand cricket
+
+
+
+
+cricket,games,hand cricket,sports.
